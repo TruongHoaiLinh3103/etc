@@ -1,0 +1,123 @@
+.ContactBody{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+}
+.ContactBody-item{
+    height: 600px;
+    position: relative;
+}
+.ContactBody-item_title, .ContactBody-contact{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 0px 50px;
+}
+.ContactBody-item .ContactBody-item_title h3,
+.ContactBody-contact h3{
+    font-size:17.28px;
+    font-weight:500;
+    line-height:25.92px;
+    text-align:left;
+    margin: 0px;
+}
+.ContactBody-item .ContactBody-item_title h1{
+    color:#283f7c;
+    font-family:Roboto;
+    font-size:57.888px;
+    font-weight:300;
+    line-height:68.256px;
+    text-align:left;
+    margin: 0px;
+    z-index: 1;
+}
+.ContactBody-item img{
+    width: 800px;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: 0;
+}
+.ContactBody-contact_email{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size:44.928px;
+    font-weight:300;
+    justify-content:space-between;
+    line-height:44.928px;
+    margin:20px 0px 20px;
+    padding:0px 0px 20px;
+    font-family: Roboto;
+    border-bottom: 1px solid black;
+}
+.ContactBody-contact_email li{
+    display: inline-block;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ContactBody-contact_email li a{
+    text-decoration: none;
+    color: black;
+}
+.ContactBody-contact_email li a:hover{
+    color: rgb(247, 154, 154);
+}
+.ContactBody-contact_email i{
+    color: rgb(247, 154, 154);
+    cursor: pointer;
+}
+.ContactBody-contact p{
+    font-family: Roboto;
+    font-size: 13.824px;
+    font-weight:300;
+    line-height:22.464px;
+    text-align:left;
+    margin: 5px 0px;
+}
+.ContactBody-branch{
+    height: 800px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.ContactBody-branch_phone{
+    text-align: center;
+    z-index: 1;
+}
+.ContactBody-branch_phone img{
+    background-color: #283f7c;
+    padding: 20px;
+    border-radius: 100vh;
+}
+.ContactBody-branch_detail h1{
+    width: 250px;
+    margin: 0px;
+    font-size: 25.92px;
+    font-weight: 500;
+    line-height: 30.24px;
+    text-align: left;
+}
+.ContactBody-branch_detail_ok{
+    margin-top: 50px;
+}
+.ContactBody-branch_detail_ok__li +
+.ContactBody-branch_detail_ok__li{
+    margin-top: 20px;
+}
+.ContactBody-branch_detail_ok div p{
+    font-family:Roboto;
+    font-size:15.552px;
+    font-weight:300;
+    line-height:23.328px;
+    margin:0px 0px 6.912px;
+    text-align:left;
+}
+.ContactBody-VietNam{
+    position: relative;
+}
+.ContactBody-VietNam img{
+    position: absolute;
+}

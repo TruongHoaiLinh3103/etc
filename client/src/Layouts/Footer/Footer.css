@@ -1,0 +1,66 @@
+.Footer{
+    background-color: #283f7c;
+    padding: 25.92px 60.48px;
+    height: 330px;
+}
+.Footer-body{
+    display: grid;
+    grid-template-columns: 16.6667% 16.6667% 16.6667% 16.6667% 16.6667% 16.6667%;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+.Footer-body_item .Footer-body_item_title{
+    color: #ffffff;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10.368px;
+    font-weight: 500;
+    line-height: 15.552px;
+    margin: 0px 0px 10.368px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.Footer-body_item ul{
+    padding: 0px;
+}
+.Footer-body_item ul li{
+    list-style: none;
+    margin: -10px 0px;
+}
+.Footer-body_item ul li a, .Footer-end_item p{
+    color: #bebebe;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10.368px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Footer-body_item ul li a:hover{
+    color: rgb(191, 121, 121);
+}
+.Footer-end{
+    display: grid;
+    grid-template-columns: 15% 30% 30% 25%;
+    margin-top: 20px;
+}
+.Footer-end_item p{
+    color: #e0e0e0;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10.368px;
+}
+.Footer-end_item_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Item-icon i{
+    background-color: #bebebe;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 100vh;
+}
+.Item-icon i:hover{
+    background-color: red;
+    color: #ffffff;
+}
