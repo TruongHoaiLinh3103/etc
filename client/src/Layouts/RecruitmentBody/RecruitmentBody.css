@@ -1,0 +1,107 @@
+.RecruitmentBody{
+    height: auto;
+}
+.RecruitmentBody-backGround{
+    height: 340px;
+    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-simple-wood-plank-texture-desk-top-view-background-poster-picture-image_1073879.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.RecruitmentBody-staff{
+    border-bottom: 1px red solid;
+    height: 170px;
+    position: relative;
+}
+.RecruitmentBody-staff span{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 100vh;
+    position: absolute;
+    bottom: -5px;
+    left: 125px;
+}
+.RecruitmentBody-staff_profile{
+    position: absolute;
+    top: -50%;
+    left: 135px;
+}
+.RecruitmentBody-staff_profile img{
+    width: 300px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.RecruitmentBody-staff_profile img:hover{
+    transition:  linear 0.2s ;
+}
+.RecruitmentBody-staff_profile h3{
+    font-size: 15.552px;
+    font-weight: 600;
+    line-height: 25.92px;
+    cursor: pointer;
+}
+.RecruitmentBody-staff_profile h3:hover{
+    color: red;
+}
+.RecruitmentBody-list{
+    height: auto;
+    width: 1000px;
+    margin: 50px auto;
+    max-width: 100%;
+}
+.RecruitmentBody-list_detail{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    text-align: center;
+}
+.RecruitmentBody-list_detail h3{
+    font-weight: lighter;
+}
+.RecruitmentBody-about{
+    height: 500px;
+    background-color: #618CFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.RecruitmentBody-about h1{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 51.84px;
+    font-weight: 300;
+    letter-spacing: 0.5184px;
+    line-height: 60.75px;
+    margin: 0px 0px 17.28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.RecruitmentBody-about p{
+    color: #ffffff;
+    font-size: 20.736px;
+    letter-spacing: 0.20736px;
+    line-height: 30.24px;
+    margin: 0px 34.275px 51.84px;
+    text-align: center;
+}
+.RecruitmentBody-about button{
+    outline: none;
+    border: none;
+    padding: 25px;
+    font-size: 17.30px;
+    font-weight: 700;
+    line-height: 15px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.RecruitmentBody-about button:hover{
+    color: rgb(241, 93, 93);
+}
+.RecruitmentBody-about button i{
+    margin-left: 10px;
+    color: red;
+}
