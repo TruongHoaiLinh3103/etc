@@ -22,7 +22,7 @@
     margin: 0px;
 }
 .ContactBody-item .ContactBody-item_title h1{
-    color:#283f7c;
+    color: var(--my-color);
     font-family:Roboto;
     font-size:57.888px;
     font-weight:300;
@@ -89,7 +89,7 @@
     z-index: 1;
 }
 .ContactBody-branch_phone img{
-    background-color: #283f7c;
+    background-color: var(--my-color);
     padding: 20px;
     border-radius: 100vh;
 }

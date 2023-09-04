@@ -28,14 +28,18 @@
     position: absolute;
     top: -50%;
     left: 135px;
+    overflow: hidden;
 }
 .RecruitmentBody-staff_profile img{
     width: 300px;
     border-radius: 3px;
     cursor: pointer;
+    transition: all linear .3s;
+    object-fit: cover;
+    height: 100%;
 }
 .RecruitmentBody-staff_profile img:hover{
-    transition:  linear 0.2s ;
+    transform: scale(1.1);
 }
 .RecruitmentBody-staff_profile h3{
     font-size: 15.552px;
@@ -57,12 +61,16 @@
     grid-template-columns: 50% 25% 25%;
     text-align: center;
 }
+.RecruitmentBody-list_detail +
+.RecruitmentBody-list_detail{
+    border-top: 1px solid rgb(203, 201, 201);
+}
 .RecruitmentBody-list_detail h3{
     font-weight: lighter;
 }
 .RecruitmentBody-about{
     height: 500px;
-    background-color: #618CFF;
+    background-color: var(--color);
     display: flex;
     align-items: center;
     justify-content: center;

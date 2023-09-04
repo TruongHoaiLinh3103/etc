@@ -1,0 +1,35 @@
+.IrereetcBody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.IrereetcBody-item{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 70px;
+}
+.IrereetcBody-item p{
+    font-size: 21.6px;
+    font-weight: 300;
+    line-height: 38.88px;
+    text-align: left;
+    margin: 0px;
+    width: 90%;
+}
+.IrereetcBody-item_kv li{
+    display: list-item;
+    margin: 0px 0px 10.368px;
+    padding: 0px 0px 0px 8.64px;
+}
+.IrereetcBody_p, .IrereetcBody-item_kv li{
+    font-size: 17.28px;
+    line-height: 25.92px;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 300;
+}
+.IrereetcBody_p{
+    margin: 50px 0px;
+    letter-spacing: 1px;
+}

@@ -23,7 +23,7 @@
 }
 .SearchRecruitmentBody i{
     padding: 5px;
-    background-color: #283F7C;
+    background-color: var(--my-color);
     border-radius: 5px;
     cursor: pointer;
     color: white;

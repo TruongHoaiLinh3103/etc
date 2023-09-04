@@ -1,72 +1,12 @@
 import React, { Component } from 'react';
 import "../../Style/grid.css";
 import "./Footer.css";
-import logo from '../../Assets/Img/logo.svg';
-import { NavLink } from "react-router-dom";
-import { DIGITALTRANSFERFORBUSINESS } from './Data/DIGITALTRANSFERFORBUSINESS';
-import { INFORMATIONTECHNOLOGY } from './Data/INFORMATIONTECHNOLOGY';
-import { PROFESSIONALSCIENTIFICEQUIPMENT } from './Data/PROFESSIONALSCIENTIFICEQUIPMENT';
-import { SMALLINDUSTRYSOLUTIONS } from './Data/SMALLINDUSTRYSOLUTIONS';
-import { SYSTEMINTEGRATION } from './Data/SYSTEMINTEGRATION';
+import Services from '../../Components/Services/Services';
 class Footer extends Component {
     render() {
         return (
             <div className='Footer'>
-                <div className='grid Footer-body'>
-                    <div className='Footer-body_item'>
-                        <img src={logo} alt=''></img>
-                    </div>
-                    <div className='Footer-body_item'>
-                        <h3 className='Footer-body_item_title'>GIẢI PHÁP CHUYÊN NGÀNH</h3>
-                        {SMALLINDUSTRYSOLUTIONS.map((item) => {
-                            return(
-                                <ul key={item.id}>
-                                    <li><NavLink to="#">{item.label}</NavLink></li>
-                                </ul>
-                            )
-                        })}
-                    </div>
-                    <div className='Footer-body_item'>
-                        <h3 className='Footer-body_item_title'>CHUYỂN ĐỔI SỐ CHO DOANH NGHIỆP</h3>
-                        {DIGITALTRANSFERFORBUSINESS.map((item) => {
-                            return(
-                                <ul key={item.id}>
-                                    <li><NavLink to="#">{item.label}</NavLink></li>
-                                </ul>
-                            )
-                        })}
-                    </div>
-                    <div className='Footer-body_item'>
-                        <h3 className='Footer-body_item_title'>CÔNG NGHỆ THÔNG TIN</h3>
-                        {INFORMATIONTECHNOLOGY.map((item) => {
-                            return(
-                                <ul key={item.id}>
-                                    <li><NavLink to="#">{item.label}</NavLink></li>
-                                </ul>
-                            )
-                        })}
-                    </div>
-                    <div className='Footer-body_item'>
-                        <h3 className='Footer-body_item_title'>THIẾT BỊ KHOA HỌC NGHIỆP VỤ</h3>
-                        {PROFESSIONALSCIENTIFICEQUIPMENT.map((item) => {
-                            return(
-                                <ul key={item.id}>
-                                    <li><NavLink to="#">{item.label}</NavLink></li>
-                                </ul>
-                            )
-                        })}
-                    </div>
-                    <div className='Footer-body_item'>
-                        <h3 className='Footer-body_item_title'>TÍCH HỢP HỆ THỐNG</h3>
-                        {SYSTEMINTEGRATION.map((item) => {
-                            return(
-                                <ul key={item.id}>
-                                    <li><NavLink to="#">{item.label}</NavLink></li>
-                                </ul>
-                            )
-                        })}
-                    </div>
-                </div>
+                <Services/>
                 <div className='grid Footer-end'>
                     <div className='Footer-end_item'>
                         <p>Trụ sở:</p>

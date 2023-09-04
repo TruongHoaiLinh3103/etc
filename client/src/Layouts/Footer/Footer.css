@@ -1,47 +1,13 @@
 .Footer{
-    background-color: #283f7c;
+    background-color: var(--my-color);
     padding: 25.92px 60.48px;
     height: 330px;
-}
-.Footer-body{
-    display: grid;
-    grid-template-columns: 16.6667% 16.6667% 16.6667% 16.6667% 16.6667% 16.6667%;
-    border-bottom: 2px solid white;
-    padding-bottom: 20px;
-}
-.Footer-body_item .Footer-body_item_title{
-    color: #ffffff;
-    font-family: 'Caveat', cursive;
-    font-family: 'Roboto', sans-serif;
-    font-size: 10.368px;
-    font-weight: 500;
-    line-height: 15.552px;
-    margin: 0px 0px 10.368px;
-    text-align: left;
-    text-transform: uppercase;
-}
-.Footer-body_item ul{
-    padding: 0px;
-}
-.Footer-body_item ul li{
-    list-style: none;
-    margin: -10px 0px;
-}
-.Footer-body_item ul li a, .Footer-end_item p{
-    color: #bebebe;
-    font-family: 'Caveat', cursive;
-    font-family: 'Roboto', sans-serif;
-    font-size: 10.368px;
-    text-decoration: none;
-    cursor: pointer;
-}
-.Footer-body_item ul li a:hover{
-    color: rgb(191, 121, 121);
 }
 .Footer-end{
     display: grid;
     grid-template-columns: 15% 30% 30% 25%;
     margin-top: 20px;
+    border-top: 2px solid white;
 }
 .Footer-end_item p{
     color: #e0e0e0;

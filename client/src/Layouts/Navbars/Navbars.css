@@ -21,6 +21,76 @@
     list-style: none;
     margin: 0px 20px;
 }
+.Navbar-nav_ul_service{
+    position: relative;
+}
+.Navbar-nav_ul_service::before{
+    content: "";
+    width: 46px;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    bottom: -32px;
+    right: 0px;
+    z-index: 3;
+}
+.Navbar-nav_ul_service:hover + .Navbar-nav_ul_service__navbar{
+    display: grid;
+}
+.Navbar-nav_ul_service__navbar{
+    position: absolute;
+    bottom: 271px;
+    width: 100%;
+    height: 400px;
+    background-color: var(--my-color);
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 18% 22% 20% 20% 20%;
+    display: none;
+    -webkit-animation: scale-up-ver-top 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-top 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+} 
+.Navbar-nav_ul_service__navbar
+.Service-navbar_item {
+    margin: 30px 0px 0px 30px;
+}
+.Navbar-nav_ul_service__navbar
+.Service-navbar_item 
+.Service-navbar_item_title{
+    color: #ffffff;
+    display: -webkit-box;
+    font-family: Roboto;
+    font-size: 14.688px;
+    font-weight: 500;
+    line-height: 22.032px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.Navbar-nav_ul_service__navbar
+.Service-navbar_item ul{
+    padding: 0px;
+}
+.Navbar-nav_ul_service__navbar
+.Service-navbar_item ul li{
+    list-style: none;
+    margin: 10px 0px;
+}
+.Navbar-nav_ul_service__navbar
+.Service-navbar_item ul li a{
+    color: #ffffff;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 12.096px;
+    line-height: 21.6px;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.Navbar-nav_ul_service__navbar
+.Service-navbar_item ul li a:hover{
+    color: red;
+}
 .Navbar-nav_ul__li a{
     text-transform: uppercase;
     line-height: 18.144px;
@@ -39,12 +109,12 @@
     padding: 5px 10px;
     border-radius: 100vh;
     cursor: pointer;
-    color: #283f7c;
+    color: var(--my-color);
     font-weight: 600;
     transition: all linear 0.1s;
 }
 .Irera_etc:hover{
-    background-color: #283f7c;
+    background-color: var(--my-color);
     color: white;
 }
 .Navbar-nav_ul__li i{
