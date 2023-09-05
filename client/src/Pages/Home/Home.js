@@ -4,7 +4,7 @@ import Footer from '../../Layouts/Footer/Footer';
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div style={{marginTop:"70px"}}>
                 <Footer/>
             </div>
         );

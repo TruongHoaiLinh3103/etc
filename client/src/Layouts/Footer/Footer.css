@@ -1,7 +1,7 @@
 .Footer{
     background-color: var(--my-color);
     padding: 25.92px 60.48px;
-    height: 330px;
+    height: 380px;
 }
 .Footer-end{
     display: grid;

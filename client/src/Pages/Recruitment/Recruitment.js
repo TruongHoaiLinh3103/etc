@@ -4,7 +4,7 @@ import RecruitmentBody from '../../Layouts/RecruitmentBody/RecruitmentBody';
 class Recruitment extends Component {
     render() {
         return (
-            <div>
+            <div style={{marginTop:"70px"}}>
                 <RecruitmentBody />
                 <Footer/>
             </div>
