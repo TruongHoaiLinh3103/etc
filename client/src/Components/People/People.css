@@ -1,0 +1,64 @@
+.People{
+    height: 600px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.People h2{
+    color: #283f7c;
+    font-family: Roboto;
+    font-size: 38.88px;
+    font-weight: 500;
+    line-height: 58.32px;
+    margin: 0px 0px 25.92px;
+    text-align: center;
+}
+.People-detail{
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--my-color);
+    height: 530px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.People-detail_succses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.People-detail_succses h3{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 38.88px;
+    font-weight: 300;
+    line-height: 46.656px;
+    margin: 0px 0px 25.2px;
+    text-align: left;
+}
+.People-detail_succses p{
+    color: #ffffff;
+    font-size: 19.872px;
+    font-weight: 300;
+    line-height: 30.24px;
+    text-align: left;
+    margin-left: 50px;
+}
+.People-detail_video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.People-detail_video iframe{
+    width: 90%;
+    height: 90%;
+}
+.people_box{
+    position: absolute;
+    bottom: 0px;
+    height: 250px;
+    background-color: #D9D9D9;
+    width: 100%;
+}

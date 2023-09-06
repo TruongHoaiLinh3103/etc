@@ -3,6 +3,8 @@ import AboutB from '../../Components/AboutB/AboutB';
 import Story from '../../Components/Story/Story';
 import "./AboutBody.css";
 import Thongso from '../../Components/Thongso/Thongso';
+import People from '../../Components/People/People';
+import Environment from '../../Components/Environment/Environment';
 class AboutBody extends Component {
     render() {
         return (
@@ -12,6 +14,8 @@ class AboutBody extends Component {
                     <Story/>
                 </div>
                 <Thongso/>
+                <People/>
+                <Environment/>
             </div>
         );
     }
