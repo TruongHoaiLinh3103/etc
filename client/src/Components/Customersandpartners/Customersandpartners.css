@@ -143,3 +143,32 @@
     left: -68%;
   }
 }
+.Customersandpartners-btn h2{
+  color: #283f7c;
+  font-family: Roboto;
+  font-size: 27.648px;
+  font-weight: 300;
+  line-height: 32.4864px;
+  margin: 0px 0px 12.96px;
+}
+.Customersandpartners-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Customersandpartners-list_item{
+  width: 200px;
+  height: 140px;
+  border: 1px solid rgb(156, 155, 155);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+.Customersandpartners-list_item:hover img{
+  transform: scale(1.2);
+  transition: all .2s ease-in-out;
+}
+.Customersandpartners-list_item img{
+  width: 70px;
+}

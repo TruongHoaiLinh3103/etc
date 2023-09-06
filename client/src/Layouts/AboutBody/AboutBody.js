@@ -8,7 +8,7 @@ class AboutBody extends Component {
         return (
             <div className='grid'>
                 <AboutB/>
-                <div className='Story' style={{margin: "0px"}}>
+                <div className='Story'>
                     <Story/>
                 </div>
                 <Thongso/>

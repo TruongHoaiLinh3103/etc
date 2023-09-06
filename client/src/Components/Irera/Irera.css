@@ -1,0 +1,27 @@
+.Irera{
+    background-color: var(--my-color);
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.Irera img{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    height: 90%;
+}
+.Irera-p{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.Irera-p h2{
+    width: 400px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 34.56px;
+    font-weight: 300;
+    line-height: 43.2px;
+    margin: 0px 0px 50px 0px
+}
