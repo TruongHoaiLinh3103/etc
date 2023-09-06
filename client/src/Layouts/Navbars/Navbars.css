@@ -41,7 +41,7 @@
     /* z-index: 3; */
 }
 .Navbar-nav_ul_service:hover + .Navbar-nav_ul_service__navbar{
-    display: block;
+    display: grid;
 }
 .Navbar-nav_ul_service__navbar{
     position: absolute;
@@ -55,7 +55,7 @@
     -webkit-animation: scale-up-ver-top 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-ver-top 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     will-change: auto;
-    /* z-index: 20; */
+    z-index: 2;
 } 
 .Navbar-nav_ul_service__navbar
 .Service-navbar_item {

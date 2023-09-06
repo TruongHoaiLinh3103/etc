@@ -1,0 +1,34 @@
+.Thongso{
+    background-color: var(--my-color);
+    height: 400px;
+}
+.Thongso h1{
+    text-align: center;
+    margin: 0px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 34.56px;
+    font-weight: 500;
+    line-height: 51.84px;
+    padding-top: 40px;
+}
+.Thongso-item{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    column-gap: 4%;
+    margin-top: 30px;
+    text-align: center;
+}
+.Thongso-item_detail h3{
+    color: #ffffff;
+    display: inline;
+    font-size: 43.2px;
+    font-weight: 500;
+    line-height: 51.0545px;
+}
+.Thongso-item_detail p{
+    color: #ffffff;
+    font-size: 15.552px;
+    font-weight: 500;
+    line-height: 23.328px;
+}

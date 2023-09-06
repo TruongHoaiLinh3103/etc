@@ -1,0 +1,40 @@
+.Technology{
+    background: linear-gradient(-229deg, #cf91ff, #5782f5);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.Technologygrid1200{
+    position: relative;
+}
+.Technologygrid1200 img{
+    border-radius: 100vh;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+.Technologygrid1200-title{
+    position: absolute;
+    right: 150px;
+    top: 150px;
+    width: 420px;
+}
+.Technologygrid1200-title h2{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 21.6px;
+    font-weight: 500;
+    line-height: 32.4px;
+    margin: 0px 0px 17.28px;
+}
+.Technologygrid1200-title h1{
+    color: #ffffff;
+    display: -webkit-box;
+    font-family: Roboto;
+    font-size: 38.88px;
+    font-weight: 300;
+    line-height: 46.656px;
+}

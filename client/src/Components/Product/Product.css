@@ -1,0 +1,158 @@
+.Product{
+    height: 480px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Product-item h3{
+    color: #283f7c;
+    font-family: Roboto;
+    font-size: 27.648px;
+    font-weight: 300;
+    line-height: 32.4864px;
+    margin: 0px 0px 12.96px;
+    text-align: left;
+}
+.Product-item h2{
+    font-size: 27.648px;
+    font-weight: 500;
+    letter-spacing: 0.55296px;
+    line-height: 32.4864px;
+    margin: 0px 0px 34.56px;
+    text-align: left;
+    width: 80%;
+}
+.Product-detail {
+    width: 100%;
+}
+.Product-detail_box {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.Product-detail_box::-webkit-scrollbar {
+    display: none;
+}
+
+.Product-detail_box_card {
+    scroll-snap-align: start;
+    border-radius: 10px;
+    min-height: 470px;
+    min-width: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(20%);
+    transition: 0.2s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+.Product-detail_box_card:hover{
+    height: 65%;
+    animation: anim 3s infinite;
+    z-index: 0;
+}
+.Product-detail_box_card:hover h1{
+    opacity: 0;;
+}
+.Product-detail_box_card:hover .box-card-detail{
+    opacity: 1;
+    transition: all linear .3s;
+}
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+.Product-detail_box_card h1{
+    margin: 0px;
+    color: #f5f5f5;
+    font-size: 15.096px;
+    line-height: 18.144px;
+    padding: 24.192px 17.28px;
+}
+.box-card-detail{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    background-color: black;
+}
+.box-card-detail_h3{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 5px solid red;
+}
+.box-card-detail .box-card-detail_h3 h3{
+    color: white;
+    display: -webkit-box;
+    font-family: Roboto;
+    font-size: 19.008px;
+    font-weight: 500;
+    line-height: 28.512px;
+    margin: 0px;
+}
+.box-card-detail ul{
+    padding: 0px;
+    margin-left: 20px;
+}
+.box-card-detail ul li{
+    list-style: none;
+    width: 95%;
+}
+.box-card-detail ul li a{
+    color: aliceblue;
+    display: inline;
+    font-family: Roboto;
+    font-size: 13.824px;
+    line-height: 20.736px;
+    text-align: left;
+    text-decoration: none;
+}
+.box-card-detail ul li a:hover{
+    color: red;
+}
+.Product-detail_box_card:nth-child(1) {
+    background-image: url('https://www.etc.vn/storage/setup/digital-technologies-foe-870-489-500x500.png');
+}
+
+.Product-detail_box_card:nth-child(2) {
+    background-image: url("https://www.etc.vn/storage/setup/review-european-economic-governance-framework-814x543-500x500.jpg");
+}
+
+.Product-detail_box_card:nth-child(3) {
+    background-image: url("https://www.etc.vn/storage/setup/video-900-500x500.jpg")
+}
+
+.Product-detail_box_card:nth-child(4) {
+    background-image: url("https://www.etc.vn/storage/setup/blog-security-ops1-500x500.webp")
+}
+
+.Product-detail_box_card:nth-child(5) {
+    background-image: url("https://www.etc.vn/storage/setup/ges369-exin-cloud-computing-act-replacement-935x572-500x500.jpg")
+}
+
+

@@ -22,9 +22,9 @@ class Story extends Component {
                         <iframe width="670" height="371" 
                         src="https://www.youtube.com/embed/lazpis0co5o" 
                         title="ETC - Niềm tin đồng hành cùng giá trị!" 
-                        frameborder="0" allow="accelerometer; autoplay; 
+                        frameBorder="0" allow="accelerometer; autoplay; 
                         clipboard-write; encrypted-media; gyroscope; 
-                        picture-in-picture; web-share" allowfullscreen></iframe>
+                        picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className='Story-history'>

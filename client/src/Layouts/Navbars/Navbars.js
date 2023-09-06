@@ -77,7 +77,6 @@ class Navbars extends Component {
                         <li className="Navbar-nav_ul__li"><NavLink to='/contact'>Liên hệ</NavLink></li>
                         <li className="Navbar-nav_ul__li"><NavLink to='/irera-etc' className="Irera_etc">Irera-Etc</NavLink></li>
                         <li className="Navbar-nav_ul__li"><i className="fa-solid fa-magnifying-glass"></i></li>
-                        <li className="Navbar-nav_ul__li"><i className="fa-solid fa-earth-americas"></i></li>
                     </ul>
                 </nav>
             </div>

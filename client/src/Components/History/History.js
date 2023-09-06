@@ -32,7 +32,7 @@ const CONTEUDO_CARTOES = [
     conteudo: "Phát triển bứt phá với nhiều dấu mốc quan trọng",
     imgone: "https://www.etc.vn/storage/setup/photo-2022-09-06-09-57-25-500x500.jpg",
     pone: "Trở thành chủ đầu tư dự án Trung tâm phát triển phần mềm ITERA với tổng diện tích 3,86ha tại Khu CNC Hoà Lạc với tổng mức đầu tư gần 1.500 tỷ đồng.",
-    imgtwo: "https://www.etc.vn/storage/setup/photo-2022-09-06-09-57-25-500x500.jpg",
+    imgtwo: "https://www.etc.vn/storage/setup/finance-2jpg-500x500.webp",
     ptwo: "Triển khai thành công trọn bộ giải pháp cho một tổ chức tài chính: phòng chống rửa tiền AML, trục thanh toán Payment Hub, trung tâm bảo mật SIEM, ITSM, CAM….",
     imgthree: "https://www.etc.vn/storage/setup/giai-phap-sap-b1-500x500.webp",
     pthree: "Là đại diện duy nhất của Việt Nam là thành viên của United VARs - Hiệp hội các nhà phân phối giải pháp SAP toàn cầu.",

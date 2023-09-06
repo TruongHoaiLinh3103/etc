@@ -12,8 +12,8 @@ class IrereetcBody extends Component {
                     <iframe width="1207" height="679" 
                     src="https://www.youtube.com/embed/1G1oYCNBOZ0" 
                     title="22.07.24 ITERA Kỷ nguyên công nghệ mới của ETC" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen></iframe>
+                    frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowFullScreen></iframe>
                     <div className='IrereetcBody-item'>
                         <p>Trung tâm nghiên cứu phát triển phần mềm ITERA được đầu 
                         tư xây dựng bởi Công ty Cổ phần hệ thống công nghệ ETC bao 
