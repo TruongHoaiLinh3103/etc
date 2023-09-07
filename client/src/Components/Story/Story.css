@@ -79,3 +79,22 @@
     margin-top: 50px;
     padding-bottom: 50px;
 }
+
+@media only screen and (max-width : 46.1875em){
+    .Story-trademark{
+        grid-template-columns: 100%;
+        row-gap: 10%;
+    }
+    .Story-trademark_detail h1, .Story-trademark p, .button4-1{
+        margin-left: 20px;
+    }
+    .Story-trademark_video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Story-trademark_video iframe{
+        width: 90%;
+        height: 90%;
+    }
+}

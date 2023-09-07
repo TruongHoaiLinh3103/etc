@@ -3,6 +3,7 @@
     height: 500px;
     position: relative;
     overflow: hidden;
+    display: block;
 }
 .AboutB .ab1{
     width: 500px;
@@ -71,4 +72,7 @@
     position: absolute;
     top: 0px;
     left: 10px;
+}
+@media only screen and (max-width : 46.1875em){
+    
 }

@@ -32,3 +32,19 @@
     background-color: red;
     color: #ffffff;
 }
+@media only screen and (max-width: 46.1875em){
+    .Footer-end{
+        grid-template-columns: 100%;
+        border: none;
+    }
+    .Footer-end_item p{
+        width: 100%;
+    }
+    .Footer-end_item_icon{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Footer-end_item_icon_p{
+        text-align: center;
+    }
+}

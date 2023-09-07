@@ -21,7 +21,7 @@ class Footer extends Component {
                         <p>Email: sales@etc.vn</p>
                     </div>
                     <div className='Footer-end_item Footer-end_item_icon'>
-                        <p>© ETC 2022</p>
+                        <p className='Footer-end_item_icon_p'>© ETC 2022</p>
                         <div className='Item-icon'>
                             <i className="fa-brands fa-facebook"></i>
                             <i className="fa-brands fa-youtube"></i>

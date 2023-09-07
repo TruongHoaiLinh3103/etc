@@ -25,3 +25,16 @@
     line-height: 43.2px;
     margin: 0px 0px 50px 0px
 }
+@media only screen and (max-width : 46.1875em){
+    .Irera-p{
+        position: absolute;
+        left: 30px;
+        bottom: 20px;
+    }
+    .Irera img{
+        top: -100px;
+    }
+    .Irera-p h2{
+        margin-left: 20px;
+    }
+}

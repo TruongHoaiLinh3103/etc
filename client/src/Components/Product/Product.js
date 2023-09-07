@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 class Product extends Component {
     render() {
         return (
-            <div className='grid1200 Product'>
+            <div className='grid1200 Product' id='dichVu'>
                 <div className='Product-item'>
                     <h3>Tiên phong dẫn đầu về công nghệ</h3>
                     <h2>Khám phá hệ sinh thái giải pháp số đa dạng</h2>

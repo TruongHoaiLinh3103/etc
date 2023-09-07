@@ -82,7 +82,7 @@
 .ContactBody-branch{
     height: 800px;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
 }
 .ContactBody-branch_phone{
     text-align: center;
@@ -121,4 +121,9 @@
 }
 .ContactBody-VietNam img{
     position: absolute;
+}
+@media only screen and (max-width : 46.1875em){
+    .ContactBody-VietNam{
+        display: none;
+    }
 }

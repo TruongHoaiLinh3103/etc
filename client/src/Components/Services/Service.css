@@ -32,3 +32,8 @@
 .Footer-body_item ul li a:hover{
     color: rgb(191, 121, 121);
 }
+@media only screen and (max-width: 46.1875em){
+    .Footer-body{
+        display: none;
+    }
+}

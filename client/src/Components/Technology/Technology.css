@@ -10,10 +10,10 @@
 }
 .Technologygrid1200 img{
     border-radius: 100vh;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     position: absolute;
-    top: 60px;
+    top: 100px;
     left: 60px;
 }
 .Technologygrid1200-title{
@@ -37,4 +37,20 @@
     font-size: 38.88px;
     font-weight: 300;
     line-height: 46.656px;
+}
+
+@media only screen and (max-width : 46.1875em){
+    .Technology{
+        height: 700px;
+    }
+    .Technologygrid1200 img{
+        left: 40px;
+        top: 300px;
+    }
+    .Technologygrid1200-title{
+        top: 30px;
+        left: 30px;
+        width: 300px;
+        text-align: center;
+    }
 }

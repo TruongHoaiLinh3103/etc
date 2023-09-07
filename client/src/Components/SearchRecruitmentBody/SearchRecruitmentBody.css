@@ -32,3 +32,21 @@
 .SearchRecruitmentBody i:hover{
     background-color: red;
 }
+@media only screen and (max-width: 46.1875em){
+    .SearchRecruitmentBody{
+        grid-template-columns: 100%;
+        margin: 0px 20px;
+        height: 200px;
+    }
+    .SearchRecruitmentBody-item + 
+    .SearchRecruitmentBody-item,
+    .SearchRecruitmentBody i,
+    .SearchRecruitmentBody input{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .SearchRecruitmentBody i{
+        margin-bottom: 10px;
+    }
+}

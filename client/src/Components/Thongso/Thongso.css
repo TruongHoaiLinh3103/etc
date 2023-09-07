@@ -32,3 +32,13 @@
     font-weight: 500;
     line-height: 23.328px;
 }
+
+@media only screen and (max-width : 46.1875em){
+    .Thongso{
+        height: 650px;
+    }
+    .Thongso-item{
+        grid-template-columns: 45% 45%;
+        column-gap: 10%;
+    }
+}

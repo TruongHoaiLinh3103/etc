@@ -155,4 +155,19 @@
     background-image: url("https://www.etc.vn/storage/setup/ges369-exin-cloud-computing-act-replacement-935x572-500x500.jpg")
 }
 
-
+@media only screen and (max-width : 46.1875em){
+    .Product{
+        grid-template-columns: 100%;
+        height: 680px;
+    }
+    .Product-item h3{
+        text-align: center;
+        width: 90%;
+        margin: 0px auto;
+    }
+    .Product-item h2{
+        width: 90%;
+        text-align: center;
+        margin: 10px auto;
+    }
+}

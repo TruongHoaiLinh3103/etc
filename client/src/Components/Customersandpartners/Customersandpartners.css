@@ -64,7 +64,7 @@
   -webkit-box-shadow: inset 0px 5px 4px 0px #424151, 0px 4px 15px 0px #0f0e17;
   box-shadow: inset 0px 5px 4px 0px #424151, 0px 4px 15px 0px #0f0e17;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   -webkit-transition: left 0.3s ease-in;
   -o-transition: left 0.3s ease-in;
   transition: left 0.3s ease-in;
@@ -155,6 +155,8 @@
 .Customersandpartners-list{
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .Customersandpartners-list_item{
   width: 200px;
