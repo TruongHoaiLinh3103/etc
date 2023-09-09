@@ -4,7 +4,7 @@ import History from '../History/History';
 class Story extends Component {
     render() {
         return (
-            <div className='grid1200'>
+            <div className='Story grid1200'>
                 <div className='Story-trademark'>
                     <div className='Story-trademark_detail'>
                         <h1>Câu chuyện thương hiệu</h1>

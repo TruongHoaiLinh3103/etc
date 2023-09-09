@@ -54,10 +54,12 @@
     .Environment-detail{
         grid-template-columns: 100%;
     }
-    .Environment-detail_item{
-        margin: 0px 10px;
-    }
     .Environment-detail_item p{
         width: 70%;
+    }
+}
+@media only screen and (max-width: 89.9375em){
+    .Environment-detail_item{
+        margin: 0px 10px;
     }
 }

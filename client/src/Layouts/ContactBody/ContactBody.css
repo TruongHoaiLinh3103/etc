@@ -1,7 +1,11 @@
 .ContactBody{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.ContactBody-container{
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 20px;
 }
 .ContactBody-item{
     height: 600px;
@@ -30,6 +34,7 @@
     text-align:left;
     margin: 0px;
     z-index: 1;
+    width: 100%;
 }
 .ContactBody-item img{
     width: 800px;
@@ -122,8 +127,50 @@
 .ContactBody-VietNam img{
     position: absolute;
 }
-@media only screen and (max-width : 46.1875em){
-    .ContactBody-VietNam{
+@media only screen and (max-width: 89.9375em){
+    .ContactBody{
+        height: 1350px;
+    }
+    .ContactBody-container{
+        grid-template-columns: 100%;
+        margin: 0px 10px;
+    }
+    .ContactBody-contact{
+        margin-top: -300px;
+        margin-bottom: 60px;
+    }
+    .ContactBody-VietNam img{
         display: none;
+    }
+}
+@media only screen and (max-width: 400px){
+    .ContactBody{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .ContactBody-container:nth-child(1){
+        margin-left: -40px;
+    }
+    .ContactBody-branch{
+        display: flex;
+        justify-content: center;
+    }
+    .ContactBody-branch_detail{
+        margin-top: 30px;
+    }
+    .ContactBody-branch_detail h1{
+        width: 100%;
+    }
+    .ContactBody-branch_phone img{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 46.1875em){
+    .ContactBody{
+        height: 1600px;
+    }
+    .ContactBody-item_title h1{
+        width: 20%;
     }
 }

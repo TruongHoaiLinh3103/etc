@@ -9,7 +9,7 @@ class IrereetcBody extends Component {
             <div>
                 <Banner/>
                 <div className='grid1200 IrereetcBody'>
-                    <iframe width="1207" height="679" 
+                    <iframe height="679" 
                     src="https://www.youtube.com/embed/1G1oYCNBOZ0" 
                     title="22.07.24 ITERA Kỷ nguyên công nghệ mới của ETC" 
                     frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

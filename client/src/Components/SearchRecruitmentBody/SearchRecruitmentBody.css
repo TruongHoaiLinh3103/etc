@@ -32,7 +32,7 @@
 .SearchRecruitmentBody i:hover{
     background-color: red;
 }
-@media only screen and (max-width: 46.1875em){
+@media only screen and (max-width: 63.9375em){
     .SearchRecruitmentBody{
         grid-template-columns: 100%;
         margin: 0px 20px;

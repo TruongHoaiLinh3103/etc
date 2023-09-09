@@ -80,13 +80,14 @@
     padding-bottom: 50px;
 }
 
-@media only screen and (max-width : 46.1875em){
+@media only screen and (max-width:  89.9375em){
+    .Story-trademark_detail{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .Story-trademark{
         grid-template-columns: 100%;
         row-gap: 10%;
-    }
-    .Story-trademark_detail h1, .Story-trademark p, .button4-1{
-        margin-left: 20px;
     }
     .Story-trademark_video {
         display: flex;
