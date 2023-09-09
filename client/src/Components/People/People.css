@@ -37,6 +37,8 @@
     line-height: 46.656px;
     margin: 0px 0px 25.2px;
     text-align: left;
+    -webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .People-detail_succses p{
     color: #ffffff;
@@ -45,6 +47,8 @@
     line-height: 30.24px;
     text-align: left;
     margin-left: 50px;
+    -webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .People-detail_video{
     display: flex;
@@ -54,6 +58,8 @@
 .People-detail_video iframe{
     width: 90%;
     height: 90%;
+    -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .people_box{
     position: absolute;

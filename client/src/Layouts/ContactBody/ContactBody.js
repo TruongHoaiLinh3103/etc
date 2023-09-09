@@ -11,7 +11,7 @@ class ContactBody extends Component {
                     <div className='ContactBody-item'>
                         <div className='ContactBody-item_title'>
                             <h3>Liên hệ với chúng tôi</h3>
-                            <h1>Công ty cổ phần Hệ thống Công nghệ ETC</h1>
+                            <h1 className='ContactBody-item_title_h1'>Công ty cổ phần Hệ thống Công nghệ ETC</h1>
                         </div>
                         <img src='https://www.etc.vn/resources/company/images/dc-contact.svg' alt=''></img>
                     </div>

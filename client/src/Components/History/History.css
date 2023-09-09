@@ -10,6 +10,8 @@
   perspective: 500px;
   transform-style: preserve-3d;
   z-index: auto;
+  -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .conteudo-geral {

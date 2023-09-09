@@ -27,11 +27,11 @@
 }
 .ContactBody-item .ContactBody-item_title h1{
     color: var(--my-color);
-    font-family:Roboto;
-    font-size:57.888px;
-    font-weight:300;
-    line-height:68.256px;
-    text-align:left;
+    font-family: Roboto;
+    font-size: 57.888px;
+    font-weight: 300;
+    line-height: 68.256px;
+    text-align: left;
     margin: 0px;
     z-index: 1;
     width: 100%;
@@ -158,8 +158,8 @@
     .ContactBody-branch_detail{
         margin-top: 30px;
     }
-    .ContactBody-branch_detail h1{
-        width: 100%;
+    .ContactBody-item_title .ContactBody-item_title_h1{
+        width: 100px;
     }
     .ContactBody-branch_phone img{
         display: none;
@@ -168,9 +168,24 @@
 }
 @media only screen and (max-width: 46.1875em){
     .ContactBody{
-        height: 1600px;
+        height: 1700px;
     }
-    .ContactBody-item_title h1{
-        width: 20%;
+    .ContactBody-item .ContactBody-item_title h1{
+        width: 70%;
+    }
+    .ContactBody-contact{
+        margin-top: -100px;
+    }
+    .ContactBody-contact_email li{
+        width: 200px;
+    }
+    .ContactBody-contact_email i{
+        margin-right: 40%;
+    }
+    .ContactBody-contact_email {
+        border-bottom: none;
+    }
+    .ContactBody-contact p{
+        width: 60%;
     }
 }

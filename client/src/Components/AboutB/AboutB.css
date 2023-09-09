@@ -4,6 +4,10 @@
     position: relative;
     overflow: hidden;
 }
+.AboutB img{
+    -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
 .AboutB .ab1{
     width: 500px;
     position: absolute;
@@ -62,6 +66,8 @@
     font-weight: 500;
     line-height: 34.56px;
     color: var(--my-color);
+    -webkit-animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .AboutB-img_etc{
     position: relative;
@@ -71,6 +77,8 @@
     position: absolute;
     top: 0px;
     left: 10px;
+    -webkit-animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 @media only screen and (max-width:  89.9375em){
     .AboutB{

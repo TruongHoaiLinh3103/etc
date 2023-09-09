@@ -14,6 +14,8 @@
     line-height: 46.656px;
     margin: 0px 0px 25.92px;
     text-align: left;
+    -webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .Story-trademark_detail p{
     font-size: 15.552px;
@@ -21,6 +23,8 @@
     line-height: 27.648px;
     margin: 0px 0px 51.84px;
     text-align: left;
+    -webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .button4-1 {
     border: none;
@@ -35,6 +39,8 @@
     border-radius: 3px;
     font-weight: 400;
     text-transform: uppercase;
+    -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .button4-1::before {
