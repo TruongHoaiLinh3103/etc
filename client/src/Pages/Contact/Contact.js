@@ -4,7 +4,7 @@ import ContactBody from '../../Layouts/ContactBody/ContactBody';
 class Contact extends Component {
     render() {
         return (
-            <div style={{marginTop:"70px"}}>
+            <div style={{marginTop:"70px", overflow:"hidden"}}>
                 <ContactBody/>
                 <Footer />
             </div>
