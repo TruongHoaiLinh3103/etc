@@ -72,7 +72,7 @@ class Navbars extends Component {
                                     )
                                 })}
                             </div>
-                        </div>
+                            </div>
                         </NavLink></li>
                         <li className="Navbar-nav_ul__li"><NavLink to='/recruitment'>Tuyển dụng</NavLink></li>
                         <li className="Navbar-nav_ul__li"><NavLink to='/contact'>Liên hệ</NavLink></li>
@@ -94,7 +94,7 @@ class Navbars extends Component {
                                 <li><i className="fa-solid fa-link"></i><NavLink to='/about'>Về ETC</NavLink></li>
                                 <li><i className="fa-solid fa-question"></i><NavLink to='/contact'>Liên hệ</NavLink></li>
                                 <li><i className="fa-solid fa-user"></i><NavLink to='/recruitment'>Tuyển dụng</NavLink></li>
-                                <li><i class="fa-brands fa-github"></i><a href='/#dichVu'>Dịch vụ</a></li>
+                                <li><i class="fa-brands fa-github"></i><a href="/">Dịch vụ</a></li>
                             </ul>
                         </div>
                     </div>

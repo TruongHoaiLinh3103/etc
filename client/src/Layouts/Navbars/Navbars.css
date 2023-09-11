@@ -273,4 +273,7 @@ input#burger:checked ~ .burger span:nth-of-type(3) {
     .Navbar-logo img{
         padding-left: 30px;
     }
+    .Navbar-nav_ul_service__navbar{
+        left: 0;
+    }
 }

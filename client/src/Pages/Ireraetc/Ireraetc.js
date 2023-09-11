@@ -4,7 +4,7 @@ import IrereetcBody from '../../Layouts/IreraetcBody/IrereetcBody';
 class Ireraetc extends Component {
     render() {
         return (
-            <div style={{marginTop:"70px"}}>
+            <div style={{marginTop:"70px", overflow:'hidden'}}>
                 <IrereetcBody/>
                 <Footer/>
             </div>
