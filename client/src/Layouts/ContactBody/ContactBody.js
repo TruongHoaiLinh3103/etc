@@ -18,7 +18,7 @@ class ContactBody extends Component {
                     <div className='ContactBody-contact'>
                         <h3>Mail to:</h3>
                         <div className='ContactBody-contact_email'>
-                            <li><NavLink to="mailto:me@ruwix.com?Subject=Hi%20mate" target="_top">eagleremlinh@gmal.com</NavLink></li>
+                            <li><NavLink to="mailto:eagleremlinh@gmail.com" target="_top">eagleremlinh@gmal.com</NavLink></li>
                             <i className="fa-solid fa-arrow-right"></i>
                         </div>
                         <p><b>Địa chỉ:</b></p>
