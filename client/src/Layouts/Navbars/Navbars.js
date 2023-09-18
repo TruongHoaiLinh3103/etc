@@ -77,7 +77,11 @@ class Navbars extends Component {
                         <li className="Navbar-nav_ul__li"><NavLink to='/recruitment'>Tuyển dụng</NavLink></li>
                         <li className="Navbar-nav_ul__li"><NavLink to='/contact'>Liên hệ</NavLink></li>
                         <li className="Navbar-nav_ul__li"><NavLink to='/irera-etc' className="Irera_etc">Irera-Etc</NavLink></li>
-                        <li className="Navbar-nav_ul__li"><i className="fa-solid fa-magnifying-glass"></i></li>
+                        <li className="Navbar-nav_ul__li Navbar-nav_ul__li_search"><i className="fa-solid fa-magnifying-glass">
+                            <div className='Navbar-nav_ul__li_search_box'>
+                                <input type='text' placeholder='Tìm kiếm'/>
+                            </div>
+                        </i></li>
                     </ul>
 
                     <input type="checkbox" hidden id="burger" />
