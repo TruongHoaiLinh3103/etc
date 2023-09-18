@@ -2,10 +2,19 @@ import React, { Component } from 'react';
 import "../../Style/grid.css";
 import "./Footer.css";
 import Services from '../../Components/Services/Services';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 class Footer extends Component {
+    componentDidMount(){
+        AOS.init({
+            duration: 2000,
+            easing: "ease-out",
+            delay: 100
+        });
+    }
     render() {
         return (
-            <div className='Footer'>
+            <div className='Footer' data-aos="fade-up">
                 <Services/>
                 <div className='grid Footer-end'>
                     <div className='Footer-end_item'>

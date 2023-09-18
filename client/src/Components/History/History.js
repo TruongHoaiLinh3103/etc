@@ -1,7 +1,6 @@
 import React, { useState, Children } from "react";
 import { TiChevronLeftOutline, TiChevronRightOutline } from "react-icons/ti";
 import "./History.css";
-
 const VISIBILIDADE_MAXIMA = 3;
 const CONTEUDO_CARTOES = [
   {

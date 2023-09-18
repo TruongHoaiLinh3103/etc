@@ -1,6 +1,7 @@
 .Banner{
     height: 600px;
     background-color: var(--my-color);
+    overflow: hidden;
 }
 .Banner-detail{
     max-width: 1200px;

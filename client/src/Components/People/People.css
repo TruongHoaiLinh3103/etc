@@ -37,8 +37,6 @@
     line-height: 46.656px;
     margin: 0px 0px 25.2px;
     text-align: left;
-    -webkit-animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-hor-left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .People-detail_succses p{
     color: #ffffff;

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import "./Thongso.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 class Thongso extends Component {
     constructor(){
         super()
@@ -48,14 +50,21 @@ class Thongso extends Component {
             ]
         }
     }
+    componentDidMount(){
+        AOS.init({
+            duration: 2000,
+            easing: "ease-out",
+            delay: 100
+        });
+    }
     render() {
         return (
             <div className='Thongso'>
-                <h1>Năng lực của chúng tôi</h1>
-                <div className='Thongso-item grid1200'>
+                <h1 data-aos="fade-up">Năng lực của chúng tôi</h1>
+                <div className='Thongso-item grid1200' data-aos="fade-up">
                     {this.state.data.map((item) => {
                         return(
-                            <div className='Thongso-item_detail' key={item.id}>
+                            <div className='Thongso-item_detail' key={item.id} data-aos="fade-down">
                                 <h3>{item.h3}</h3>
                                 <p>{item.p}</p>
                             </div>

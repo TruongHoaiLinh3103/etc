@@ -4,7 +4,7 @@ import AboutBody from '../../Layouts/AboutBody/AboutBody';
 class About extends Component {
     render() {
         return (
-            <div style={{marginTop:"70px"}}>
+            <div style={{marginTop:"70px", overflow:'hidden'}}>
                 <AboutBody/>
                 <Footer/>
             </div>

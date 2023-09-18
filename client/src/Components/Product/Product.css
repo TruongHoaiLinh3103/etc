@@ -4,6 +4,7 @@
     grid-template-columns: 20% 80%;
     margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 .Product-item h3{
     color: #283f7c;
@@ -13,9 +14,6 @@
     line-height: 32.4864px;
     margin: 0px 0px 12.96px;
     text-align: left;
-    -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: 0.2ms;
 }
 .Product-item h2{
     font-size: 27.648px;
@@ -25,9 +23,6 @@
     margin: 0px 0px 34.56px;
     text-align: left;
     width: 80%;
-    -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: .4ms;
 }
 .Product-detail {
     width: 100%;
@@ -41,9 +36,6 @@
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
-    -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: .6ms;
 }
 
 .Product-detail_box::-webkit-scrollbar {

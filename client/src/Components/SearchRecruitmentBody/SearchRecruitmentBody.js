@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
 import "./SearchRecruitmentBody.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 class SearchRecruitmentBody extends Component {
+    componentDidMount(){
+        AOS.init({
+            duration: 2000,
+            easing: "ease-out",
+            delay: 100
+        });
+    }
     render() {
         return (
-            <div className='SearchRecruitmentBody'>
+            <div className='SearchRecruitmentBody' data-aos="zoom-out">
                 <input type='text' placeholder='Từ khóa..' className='SearchRecruitmentBody-item'/>
                 <select className='SearchRecruitmentBody-item'>
                     <option defaultValue="loaicongviec" select="select">-Loại công việc-</option>

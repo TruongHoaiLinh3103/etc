@@ -1,12 +1,21 @@
 import React, { Component } from 'react';
 import "./Story.css";
 import History from '../History/History';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 class Story extends Component {
+    componentDidMount(){
+        AOS.init({
+            duration: 2000,
+            easing: "ease-out",
+            delay: 100
+        });
+    }
     render() {
         return (
             <div className='Story grid1200'>
                 <div className='Story-trademark'>
-                    <div className='Story-trademark_detail'>
+                    <div className='Story-trademark_detail' data-aos="fade-right">
                         <h1>Câu chuyện thương hiệu</h1>
                         <p>Từ khát khao đưa trí tuệ Việt 
                         phục vụ mọi thứ mà khách hàng cần 
@@ -18,7 +27,7 @@ class Story extends Component {
                         ứng nhu cầu không giới hạn của khách hàng.</p>
                         <button className="button4-1">Tìm hiểu thêm</button>
                     </div>
-                    <div className='Story-trademark_video'>
+                    <div className='Story-trademark_video' data-aos="fade-left">
                         <iframe width="670" height="371" 
                         src="https://www.youtube.com/embed/lazpis0co5o" 
                         title="ETC - Niềm tin đồng hành cùng giá trị!" 
@@ -27,7 +36,7 @@ class Story extends Component {
                         picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
-                <div className='Story-history'>
+                <div className='Story-history' data-aos="fade-down">
                     <History/>
                 </div>
             </div>

@@ -3,7 +3,16 @@ import "../../Style/grid.css";
 import './IreraetcBody.css'
 import Banner from '../../Components/Banner/Banner';
 import {IrereetcBodyData} from './Data/IrereetcBodyData';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 class IrereetcBody extends Component {
+    componentDidMount(){
+        AOS.init({
+            duration: 2000,
+            easing: "ease-out",
+            delay: 100
+        });
+    }
     render() {
         return (
             <div>
@@ -13,12 +22,12 @@ class IrereetcBody extends Component {
                     src="https://www.youtube.com/embed/1G1oYCNBOZ0" 
                     title="22.07.24 ITERA Kỷ nguyên công nghệ mới của ETC" 
                     frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowFullScreen></iframe>
+                    allowFullScreen data-aos="fade-up"></iframe>
                     <div className='IrereetcBody-item'>
-                        <p>Trung tâm nghiên cứu phát triển phần mềm ITERA được đầu 
+                        <p data-aos="fade-right">Trung tâm nghiên cứu phát triển phần mềm ITERA được đầu 
                         tư xây dựng bởi Công ty Cổ phần hệ thống công nghệ ETC bao 
                         gồm 5 khu:</p>
-                        <div className='IrereetcBody-item_kv' >
+                        <div className='IrereetcBody-item_kv' data-aos="fade-left">
                             {IrereetcBodyData.map((item) => {
                                 return(
                                     <li key={item.id}>{item.name} <b>{item.nameB}</b></li>
@@ -26,7 +35,7 @@ class IrereetcBody extends Component {
                             })}   
                         </div>
                     </div>
-                    <div className='IrereetcBody_p'>
+                    <div className='IrereetcBody_p' data-aos="fade-down">
                         <p>Ông Phạm Tiến Hưng – Chủ tịch HĐQT Công ty ETC cho biết: 
                         Dự án sẽ tập trung vào việc nghiên cứu đưa những công nghệ 
                         mới, hiện đại trong lĩnh vực phần mềm trên thế giới triển 

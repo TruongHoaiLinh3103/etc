@@ -4,7 +4,7 @@ import Homebody from '../../Layouts/HomeBody/Homebody';
 class Home extends Component {
     render() {
         return (
-            <div style={{marginTop:"70px"}}>
+            <div style={{marginTop:"70px", overflow:'hidden'}}>
                 <Homebody />
                 <Footer/>
             </div>

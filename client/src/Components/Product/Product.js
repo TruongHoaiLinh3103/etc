@@ -6,15 +6,24 @@ import { INFORMATIONTECHNOLOGY } from '../../Layouts/Footer/Data/INFORMATIONTECH
 import { PROFESSIONALSCIENTIFICEQUIPMENT } from '../../Layouts/Footer/Data/PROFESSIONALSCIENTIFICEQUIPMENT';
 import { SYSTEMINTEGRATION } from '../../Layouts/Footer/Data/SYSTEMINTEGRATION';
 import { NavLink } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 class Product extends Component {
+    componentDidMount(){
+        AOS.init({
+            duration: 2000,
+            easing: "ease-out",
+            delay: 100
+        });
+    }
     render() {
         return (
             <div className='grid1200 Product' id='dichVu'>
-                <div className='Product-item'>
+                <div className='Product-item' data-aos="fade-right">
                     <h3>Tiên phong dẫn đầu về công nghệ</h3>
                     <h2>Khám phá hệ sinh thái giải pháp số đa dạng</h2>
                 </div>
-                <div className='Product-detail'>
+                <div className='Product-detail' data-aos="fade-up">
                     <div className="Product-detail_box">
                         <article className="Product-detail_box_card">
                             <h1>Giải pháp chuyên ngành</h1>

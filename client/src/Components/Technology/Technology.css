@@ -15,9 +15,6 @@
     position: absolute;
     top: 100px;
     left: 60px;
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: .4ms;
 }
 .Technologygrid1200-title{
     position: absolute;
@@ -32,9 +29,6 @@
     font-weight: 500;
     line-height: 32.4px;
     margin: 0px 0px 17.28px;
-    -webkit-animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-ver-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: 1.2ms;
 }
 .Technologygrid1200-title h1{
     color: #ffffff;
@@ -43,9 +37,6 @@
     font-size: 38.88px;
     font-weight: 300;
     line-height: 46.656px;
-    -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation-delay: 1.8ms;
 }
 
 @media only screen and (max-width : 46.1875em){
