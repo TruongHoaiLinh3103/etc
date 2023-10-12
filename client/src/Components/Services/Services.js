@@ -6,7 +6,7 @@ import { PROFESSIONALSCIENTIFICEQUIPMENT } from '../../Layouts/Footer/Data/PROFE
 import { SYSTEMINTEGRATION } from '../../Layouts/Footer/Data/SYSTEMINTEGRATION';
 import { NavLink } from "react-router-dom";
 import logo from '../../Assets/Img/logo.svg';
-import "./Service.css"
+import "./Service.css";
 class Services extends Component {
     render() {
         return (
@@ -19,7 +19,7 @@ class Services extends Component {
                     {SMALLINDUSTRYSOLUTIONS.map((item) => {
                         return(
                             <ul key={item.id}>
-                                <li><NavLink to="#">{item.label}</NavLink></li>
+                                <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                             </ul>
                         )
                     })}
@@ -29,7 +29,7 @@ class Services extends Component {
                     {DIGITALTRANSFERFORBUSINESS.map((item) => {
                         return(
                             <ul key={item.id}>
-                                <li><NavLink to="#">{item.label}</NavLink></li>
+                                <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                             </ul>
                         )
                     })}
@@ -39,7 +39,7 @@ class Services extends Component {
                     {INFORMATIONTECHNOLOGY.map((item) => {
                         return(
                             <ul key={item.id}>
-                                <li><NavLink to="#">{item.label}</NavLink></li>
+                                <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                             </ul>
                         )
                     })}
@@ -49,7 +49,7 @@ class Services extends Component {
                     {PROFESSIONALSCIENTIFICEQUIPMENT.map((item) => {
                         return(
                             <ul key={item.id}>
-                                <li><NavLink to="#">{item.label}</NavLink></li>
+                                <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                             </ul>
                         )
                     })}
@@ -59,7 +59,7 @@ class Services extends Component {
                     {SYSTEMINTEGRATION.map((item) => {
                         return(
                             <ul key={item.id}>
-                                <li><NavLink to="#">{item.label}</NavLink></li>
+                                <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                             </ul>
                         )
                     })}

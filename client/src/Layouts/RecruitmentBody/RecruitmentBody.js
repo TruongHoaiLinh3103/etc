@@ -3,6 +3,7 @@ import "./RecruitmentBody.css";
 import SearchRecruitmentBody from '../../Components/SearchRecruitmentBody/SearchRecruitmentBody';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { withRouter } from 'react-router-dom/cjs/react-router-dom.min';
 class RecruitmentBody extends Component {
     componentDidMount(){
         AOS.init({
@@ -10,6 +11,12 @@ class RecruitmentBody extends Component {
             easing: "ease-out",
             delay: 100
         });
+    }
+    constructor(){
+        super();
+        this.pushETC = () => {
+            this.props.history.push("/irera-etc")
+        }
     }
     render() {
         return (
@@ -49,11 +56,11 @@ class RecruitmentBody extends Component {
                 <div className='RecruitmentBody-about' data-aos="fade-down">
                     <h1 data-aos="fade-right">CÙNG ETC KIẾN TẠO TƯƠNG LAI</h1>
                     <p data-aos="fade-left">ETC chắc chắn sẽ cho bạn: Cơ hội không ngừng sáng tạo, thách thức để khẳng định bản thân, và điều kiện để học hỏi, phát triển.</p>
-                    <button data-aos="fade-right">Tìm hiểu thêm về ETC<i className="fa-solid fa-arrow-right"></i></button>
+                    <button data-aos="fade-right" onClick={() => this.pushETC()}>Tìm hiểu thêm về ETC<i className="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
         );
     }
 }
 
-export default RecruitmentBody;
+export default withRouter(RecruitmentBody);

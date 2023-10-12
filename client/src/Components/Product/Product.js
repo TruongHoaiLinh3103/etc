@@ -34,7 +34,7 @@ class Product extends Component {
                                 {SMALLINDUSTRYSOLUTIONS.map((item) => {
                                     return(
                                         <ul key={item.id}>
-                                            <li><NavLink to="#">{item.label}</NavLink></li>
+                                            <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                                         </ul>
                                     )
                                 })}
@@ -49,7 +49,7 @@ class Product extends Component {
                                 {DIGITALTRANSFERFORBUSINESS.map((item) => {
                                     return(
                                         <ul key={item.id}>
-                                            <li><NavLink to="#">{item.label}</NavLink></li>
+                                            <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                                         </ul>
                                     )
                                 })}
@@ -64,7 +64,7 @@ class Product extends Component {
                                 {INFORMATIONTECHNOLOGY.map((item) => {
                                     return(
                                         <ul key={item.id}>
-                                            <li><NavLink to="#">{item.label}</NavLink></li>
+                                            <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                                         </ul>
                                     )
                                 })}
@@ -79,7 +79,7 @@ class Product extends Component {
                                 {PROFESSIONALSCIENTIFICEQUIPMENT.map((item) => {
                                     return(
                                         <ul key={item.id}>
-                                            <li><NavLink to="#">{item.label}</NavLink></li>
+                                            <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                                         </ul>
                                     )
                                 })}
@@ -94,7 +94,7 @@ class Product extends Component {
                                 {SYSTEMINTEGRATION.map((item) => {
                                     return(
                                         <ul key={item.id}>
-                                            <li><NavLink to="#">{item.label}</NavLink></li>
+                                            <li><NavLink to={`/${item.link}`}>{item.label}</NavLink></li>
                                         </ul>
                                     )
                                 })}

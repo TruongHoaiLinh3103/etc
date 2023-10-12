@@ -3,6 +3,7 @@ import "./Story.css";
 import History from '../History/History';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { withRouter } from 'react-router-dom/cjs/react-router-dom.min';
 class Story extends Component {
     componentDidMount(){
         AOS.init({
@@ -10,6 +11,12 @@ class Story extends Component {
             easing: "ease-out",
             delay: 100
         });
+    }
+    constructor(){
+        super();
+        this.pushETC = () => {
+            this.props.history.push("/irera-etc")
+        }
     }
     render() {
         return (
@@ -25,7 +32,7 @@ class Story extends Component {
                         trở thành nhà cung cấp hệ sinh 
                         thái công nghệ số dẫn đầu, đáp 
                         ứng nhu cầu không giới hạn của khách hàng.</p>
-                        <button className="button4-1">Tìm hiểu thêm</button>
+                        <button className="button4-1" onClick={() => this.pushETC()}>Tìm hiểu thêm</button>
                     </div>
                     <div className='Story-trademark_video' data-aos="fade-left">
                         <iframe width="670" height="371" 
@@ -44,4 +51,4 @@ class Story extends Component {
     }
 }
 
-export default Story;
+export default withRouter(Story);

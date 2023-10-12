@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { NavLink } from "react-router-dom";
 import "./ContactBody.css";
 import '../../Style/grid.css';
 import AOS from 'aos';
@@ -27,8 +26,8 @@ class ContactBody extends Component {
                     <div className='ContactBody-contact' data-aos="fade-left">
                         <h3 data-aos="flip-right">Mail to:</h3>
                         <div className='ContactBody-contact_email' data-aos="flip-left">
-                            <li><NavLink to="mailto:eagleremlinh@gmail.com" target="_top">eagleremlinh@gmal.com</NavLink></li>
-                            <i className="fa-solid fa-arrow-right"></i>
+                            <li><a href="mailto:eagleremlinh@gmail.com">eagleremlinh@gmal.com</a></li>
+                            <a href='mailto:eagleremlinh@gmail.com'><i className="fa-solid fa-arrow-right"></i></a>
                         </div>
                         <p data-aos="flip-right"><b>Địa chỉ:</b></p>
                         <p data-aos="flip-left">Số 2B1, Đầm Trấu, P. Bạch Đằng, Q. Hai Bà Trưng, Hà Nội.</p>
@@ -38,8 +37,8 @@ class ContactBody extends Component {
                         <p data-aos="flip-left"><b>Email:</b> sales@etc.vn</p>
                         <br/>
                         <div className='Item-icon' data-aos="flip-right">
-                            <i className="fa-brands fa-facebook"></i>
-                            <i className="fa-brands fa-youtube"></i>
+                            <a href='https://www.facebook.com/thatnghiepmH/' style={{color: 'black'}}><i className="fa-brands fa-facebook"></i></a>
+                            <a href='https://www.youtube.com/watch?v=KAJTOZVQP4U' style={{color: 'black'}}><i className="fa-brands fa-youtube"></i></a>
                             <i className="fa-brands fa-linkedin-in"></i>
                         </div>
                     </div>

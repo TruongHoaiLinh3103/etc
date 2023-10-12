@@ -32,8 +32,8 @@ class Footer extends Component {
                     <div className='Footer-end_item Footer-end_item_icon'>
                         <p className='Footer-end_item_icon_p'>© ETC 2022</p>
                         <div className='Item-icon'>
-                            <i className="fa-brands fa-facebook"></i>
-                            <i className="fa-brands fa-youtube"></i>
+                            <a href='https://www.facebook.com/thatnghiepmH/' style={{color: 'black'}}><i className="fa-brands fa-facebook"></i></a>
+                            <a href='https://www.youtube.com/watch?v=KAJTOZVQP4U' style={{color: 'black'}}><i className="fa-brands fa-youtube"></i></a>
                             <i className="fa-brands fa-linkedin-in"></i>
                         </div>
                     </div>

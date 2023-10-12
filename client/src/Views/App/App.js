@@ -10,6 +10,8 @@ import Recruitment from '../../Pages/Recruitment/Recruitment';
 import Contact from '../../Pages/Contact/Contact';
 import Ireraetc from '../../Pages/Ireraetc/Ireraetc';
 import "../../Style/Basic.css";
+import '../../Style/grid.css';
+import ServicePage from "../../Components/ServicePage/ServicePage";
 
 function App() {
   return (
@@ -31,6 +33,9 @@ function App() {
           </Route>
           <Route path="/irera-etc">
             <Ireraetc />
+          </Route>
+          <Route path="/:name">
+            <ServicePage />
           </Route>
         </Switch>
       </div>
