@@ -87,13 +87,13 @@
     color: #ffffff;
     display: inline-block;
     font-family: Roboto;
-    font-size: 12.096px;
-    line-height: 21.6px;
+    font-size: 10px;
+    line-height: 20px;
     text-align: left;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.2s ease-in;
-    width: 80%;
+    width: 100%;
 }
 .Navbar-nav_ul_service__navbar
 .Service-navbar_item ul li a:hover{

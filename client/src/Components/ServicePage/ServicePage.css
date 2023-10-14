@@ -6,3 +6,88 @@
     width: 100%;
     height: 100%;
 }
+.ServicePage-body{
+    padding: 40px 0px;
+}
+.ServicePage-body-home{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.ServicePage-body-home li{
+    list-style: none;
+    color: rgb(63, 63, 63);
+}
+.ServicePage-body-home li + li{
+    margin-left: 10px;
+}
+.ServicePage-body-home li a{
+    text-decoration: none;
+    color: rgb(63, 63, 63)
+}
+.ServicePage-body-home li a:hover{
+    color: red;
+    transition: all ease-in-out .3s;
+}
+.ServicePage-body-box{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.ServicePage-body-box h3{
+    font-size: 34.56px;
+    font-weight: 300;
+    line-height: 41.472px;;
+    text-align: left;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.ServicePage-body-box p{
+    font-size: 17.28px;
+    font-weight: 300;
+    line-height: 25.92px;
+    text-align: left;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.ServicePage-body p{
+    font-size: 17.28px;
+    font-weight: 300;
+    line-height: 25.92px;
+    text-align: left;
+    padding: 0px 20px;
+}
+.ServicePage-body button{
+    padding: 10px 40px;
+    background-color: var(--my-color);
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ServicePage-body_p{
+    background-color: #D9D9D9;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 40px;
+}
+.ServicePage-body_pone{
+    background-color: #D9D9D9;
+    margin-bottom: 40px;
+    padding: 50px 20px;
+}
+.ServicePage-body_p p{
+    padding: 20px;
+}
+.ServicePage-body_p_item{
+    margin: 0px 20px;
+}
+.ServicePage-body_p_item p + p{
+    border-top:  1px solid white;
+}
+.ServicePage-body button:hover{
+    background-color: rgb(3, 66, 87);
+    transition: all linear .3s;
+}

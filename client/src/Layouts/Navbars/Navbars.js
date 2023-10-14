@@ -85,20 +85,20 @@ class Navbars extends Component {
                     </ul>
 
                     <input type="checkbox" hidden id="burger" />
-                    <label for="burger" className="burger">
+                    <label htmlFor="burger" className="burger">
                         <span></span>
                         <span></span>
                         <span></span>
                     </label>
                     <div className="nav__bars-box">
-                        <label for="burger" className="navbar__overlay"></label>
+                        <label htmlFor="burger" className="navbar__overlay"></label>
                         <div className="navbar__body">
                             <ul className="bars__box-nav">
                                 <li><i className="fa-solid fa-house"></i><NavLink to="/" exact={true}>Trang chủ</NavLink></li>
                                 <li><i className="fa-solid fa-link"></i><NavLink to='/about'>Về ETC</NavLink></li>
                                 <li><i className="fa-solid fa-question"></i><NavLink to='/contact'>Liên hệ</NavLink></li>
                                 <li><i className="fa-solid fa-user"></i><NavLink to='/recruitment'>Tuyển dụng</NavLink></li>
-                                <li><i class="fa-brands fa-github"></i><a href="/">Dịch vụ</a></li>
+                                <li><i className="fa-brands fa-github"></i><a href="/">Dịch vụ</a></li>
                             </ul>
                         </div>
                     </div>
