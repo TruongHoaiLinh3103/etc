@@ -139,11 +139,13 @@
     right: -20px;
     width: 200px;
     height: 50px;
-    background-color: #fff3;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     display: none;
+    border: 1px solid black;
+    box-shadow: 4px 3px 11px 1px black;
     -webkit-animation: scale-up-tr 0.4s cubic-bezier(0.490, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-tr 0.4s cubic-bezier(0.490, 0.575, 0.565, 1.000) both;
 }

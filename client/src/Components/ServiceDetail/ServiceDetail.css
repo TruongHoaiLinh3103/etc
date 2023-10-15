@@ -45,3 +45,19 @@
     user-select: none;
     margin-bottom: 0px;
 }
+@media only screen and (max-width: 89.9374em){
+    .ServiceDetail h3{
+        margin: 0px 20px 47.52px 20px;
+    }
+    .ServiceDetail-item img{
+        padding: 20px 20px 0px 20px;   
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
+    .ServiceDetail-box{
+        grid-template-columns: 100%
+    }
+}

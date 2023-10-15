@@ -81,6 +81,9 @@
     .Technologygrid1200-title{
         margin: 0px auto;
     }
+    .Technologygrid1200-title h1{
+        text-align: center;
+    }
 }
 @media only screen and (min-width: 46.1876em) and (max-width: 89.9375em){
     .Technologygrid1200{

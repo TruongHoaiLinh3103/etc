@@ -4,6 +4,7 @@ import SearchRecruitmentBody from '../../Components/SearchRecruitmentBody/Search
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { withRouter } from 'react-router-dom/cjs/react-router-dom.min';
+import { RECRUITMENT } from './Data/RECRUITMENT';
 class RecruitmentBody extends Component {
     componentDidMount(){
         AOS.init({
@@ -37,21 +38,15 @@ class RecruitmentBody extends Component {
                         <h3>Số lượng</h3>
                         <h3>Địa điểm làm việc</h3>
                     </div>
-                    <div className='RecruitmentBody-list_detail' data-aos="fade-up">
-                        <p>Trưởng nhóm kế toán</p>
-                        <p>1</p>
-                        <p>Đang cập nhập</p>
-                    </div>
-                    <div className='RecruitmentBody-list_detail' data-aos="fade-up">
-                        <p>Nhân viên bảo hành, bảo trì</p>
-                        <p>1</p>
-                        <p>Đang cập nhập</p>
-                    </div>
-                    <div className='RecruitmentBody-list_detail' data-aos="fade-up">
-                        <p>.Net developer</p>
-                        <p>1</p>
-                        <p>Đang cập nhập</p>
-                    </div>
+                    {RECRUITMENT.map((item) => {
+                        return(
+                        <div className='RecruitmentBody-list_detail' data-aos="fade-up">
+                            <p>{item.role}</p>
+                            <p>{item.count}</p>
+                            <p>{item.adress}</p>
+                        </div>
+                        )
+                    })}
                 </div>
                 <div className='RecruitmentBody-about' data-aos="fade-down">
                     <h1 data-aos="fade-right">CÙNG ETC KIẾN TẠO TƯƠNG LAI</h1>

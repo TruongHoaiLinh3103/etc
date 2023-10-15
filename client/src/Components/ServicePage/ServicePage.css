@@ -91,3 +91,27 @@
     background-color: rgb(3, 66, 87);
     transition: all linear .3s;
 }
+@media only screen and (max-width: 89.9374em){
+    .ServicePage-body button{
+        margin: 0px 20px;
+    }
+    .ServicePage-body-home{
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 78.9375em){
+    
+}
+@media only screen and (max-width : 46.1875em){
+    .ServicePage-body-box{
+        grid-template-columns: 100%;
+    }
+    .ServicePage-body-home li{
+        text-align: center;
+    }
+    .ServicePage-body-home li:nth-child(2),
+    .ServicePage-body-home li:nth-child(3)
+    {
+        display: none;
+    }
+}
