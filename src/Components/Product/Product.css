@@ -41,10 +41,6 @@
     scrollbar-width: none;
 }
 
-.Product-detail_box::-webkit-scrollbar {
-    display: none;
-}
-
 .Product-detail_box_card {
     scroll-snap-align: start;
     border-radius: 10px;

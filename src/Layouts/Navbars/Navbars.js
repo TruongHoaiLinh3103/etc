@@ -41,7 +41,7 @@ class Navbars extends Component {
                                 <input type='text' placeholder='Tìm kiếm'/>
                             </div>
                         </i></li>
-                        <div className='Navbar-nav_ul_service__navbar grid' style={{display: this.state.dichvu ? "grid" : "none"}}>
+                        <div className='Navbar-nav_ul_service__navbar grid' style={{display: this.state.dichvu ? "grid" : "none"}} onClick={() => this.setState({dichvu: !this.state.dichvu})}>
                             <div className='Service-navbar_item'>
                                 <h3 className='Service-navbar_item_title'>GIẢI PHÁP CHUYÊN NGÀNH</h3>
                                 {SMALLINDUSTRYSOLUTIONS.map((item) => {
@@ -92,6 +92,7 @@ class Navbars extends Component {
                                     )
                                 })}
                             </div>
+                            <div style={{position: "fixed", width: "100%", height: "100%", backgroundColor: "black", opacity: "0.2", bottom: "-450px"}}></div>
                         </div>
                     </ul>
 
