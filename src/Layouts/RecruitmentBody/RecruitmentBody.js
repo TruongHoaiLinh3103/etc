@@ -40,7 +40,7 @@ class RecruitmentBody extends Component {
                     </div>
                     {RECRUITMENT.map((item) => {
                         return(
-                        <div className='RecruitmentBody-list_detail' data-aos="fade-up">
+                        <div className='RecruitmentBody-list_detail' data-aos="fade-up" key={item.id}>
                             <p>{item.role}</p>
                             <p>{item.count}</p>
                             <p>{item.adress}</p>

@@ -9,7 +9,19 @@ import { DIGITALTRANSFERFORBUSINESS } from '../Footer/Data/DIGITALTRANSFERFORBUS
 import { INFORMATIONTECHNOLOGY } from '../Footer/Data/INFORMATIONTECHNOLOGY';
 import { PROFESSIONALSCIENTIFICEQUIPMENT } from '../Footer/Data/PROFESSIONALSCIENTIFICEQUIPMENT';
 import {SYSTEMINTEGRATION} from "../Footer/Data/SYSTEMINTEGRATION";
+
 class Navbars extends Component {
+    constructor(){
+        super();
+        this.state = {
+            dichvu : false
+        }
+        this.dichvu = () => {
+            this.setState({
+                dichvu: !this.state.dichvu
+            })
+        }
+    }
     render() {
         return (
             <div className='Navbar grid'>
@@ -20,8 +32,16 @@ class Navbars extends Component {
                     <ul className='Navbar-nav_ul'>
                         <li className="Navbar-nav_ul__li"><NavLink to="/" exact={true}>Trang chủ</NavLink></li>
                         <li className="Navbar-nav_ul__li"><NavLink to='/about'>Về ETC</NavLink></li>
-                        <li className="Navbar-nav_ul__li Navbar-nav_ul_service"><NavLink to='#'>Dịch vụ
-                            <div className='Navbar-nav_ul_service__navbar grid'>
+                        <li className="Navbar-nav_ul__li Navbar-nav_ul_service" onClick={() => this.dichvu()}><NavLink to='#'>Dịch vụ</NavLink></li>
+                        <li className="Navbar-nav_ul__li"><NavLink to='/recruitment'>Tuyển dụng</NavLink></li>
+                        <li className="Navbar-nav_ul__li"><NavLink to='/contact'>Liên hệ</NavLink></li>
+                        <li className="Navbar-nav_ul__li"><NavLink to='/irera-etc' className="Irera_etc">Irera-Etc</NavLink></li>
+                        <li className="Navbar-nav_ul__li Navbar-nav_ul__li_search"><i className="fa-solid fa-magnifying-glass">
+                            <div className='Navbar-nav_ul__li_search_box'>
+                                <input type='text' placeholder='Tìm kiếm'/>
+                            </div>
+                        </i></li>
+                        <div className='Navbar-nav_ul_service__navbar grid' style={{display: this.state.dichvu ? "grid" : "none"}}>
                             <div className='Service-navbar_item'>
                                 <h3 className='Service-navbar_item_title'>GIẢI PHÁP CHUYÊN NGÀNH</h3>
                                 {SMALLINDUSTRYSOLUTIONS.map((item) => {
@@ -72,16 +92,7 @@ class Navbars extends Component {
                                     )
                                 })}
                             </div>
-                            </div>
-                        </NavLink></li>
-                        <li className="Navbar-nav_ul__li"><NavLink to='/recruitment'>Tuyển dụng</NavLink></li>
-                        <li className="Navbar-nav_ul__li"><NavLink to='/contact'>Liên hệ</NavLink></li>
-                        <li className="Navbar-nav_ul__li"><NavLink to='/irera-etc' className="Irera_etc">Irera-Etc</NavLink></li>
-                        <li className="Navbar-nav_ul__li Navbar-nav_ul__li_search"><i className="fa-solid fa-magnifying-glass">
-                            <div className='Navbar-nav_ul__li_search_box'>
-                                <input type='text' placeholder='Tìm kiếm'/>
-                            </div>
-                        </i></li>
+                        </div>
                     </ul>
 
                     <input type="checkbox" hidden id="burger" />
@@ -99,6 +110,7 @@ class Navbars extends Component {
                                 <li><i className="fa-solid fa-question"></i><NavLink to='/contact'>Liên hệ</NavLink></li>
                                 <li><i className="fa-solid fa-user"></i><NavLink to='/recruitment'>Tuyển dụng</NavLink></li>
                                 <li><i className="fa-brands fa-github"></i><a href="/">Dịch vụ</a></li>
+                                <li className="Navbar-nav_ul__li"><NavLink to='/irera-etc' className="Irera_etc">Irera-Etc</NavLink></li>
                             </ul>
                         </div>
                     </div>
